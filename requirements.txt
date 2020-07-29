@@ -1,5 +1,3 @@
-pytube3
-os
-re
-subprocess
-moviepy
+
+subprocess32==3.5.4
+moviepy==1.0.3
