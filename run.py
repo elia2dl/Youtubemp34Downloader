@@ -41,8 +41,9 @@ def shell():
                 time.sleep(3)
                 os.system("mkdir mp4; cd mp4; youtube-dl -i -f mp4 --yes-playlist " + url)
                 print("[+] Tutto fatto, converto ora i file in mp3")
-                foldermp3 = "./songs/"
+                foldermp3 = "./mp3/"
                 foldermp4 = "./mp4/"
+                os.system("mkdir mp3")
 
                 for file in os.listdir(foldermp4):
                     mp4 = VideoFileClip(foldermp4 + file)
