@@ -19,7 +19,7 @@ def shell():
     
                                                              
             """)
-
+        time.sleep(3)
         print("1. mp4")
         print("2. mp3")
         print("3. Exit")
