@@ -144,10 +144,10 @@ def shell():
                 continue
             elif int(inp) == 2:
                 os.system("clear")
-                print("[+] Incolla il link youtube di una playlist o di una canzone.")
+                print("[+] Incolla il link youtube o soundcloud di una playlist o di una canzone.")
                 url = input("")
-                api = SoundcloudAPI()
                 if "soundcloud" in url:
+                    api = SoundcloudAPI()
                     if "/sets/" in url:
                         playlist = api.resolve(url)
                         for track in playlist.tracks:
@@ -226,7 +226,6 @@ def shell():
         except Exception as e:
             os.system("clear")
             print("[-] Qualcosa ? andato storto, riprova :(")
-            print(e)
             continue
 if __name__ == "__main__":
     try:
