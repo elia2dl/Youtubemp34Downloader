@@ -1,3 +1,4 @@
-
-subprocess32==3.5.4
-moviepy==1.0.3
+youtube-dl
+subprocess32
+moviepy
+soundcloud-lib
