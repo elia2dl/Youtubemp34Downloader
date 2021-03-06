@@ -1,3 +1,5 @@
+Funziona anche con soundcloud.
+
 È necessaria la versione 3 o superiore di python.
 link:
      https://www.python.org/downloads/
